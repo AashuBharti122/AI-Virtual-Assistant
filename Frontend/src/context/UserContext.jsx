@@ -5,7 +5,7 @@ import {useState, useEffect} from 'react';
 export const userDataContext = createContext();
 
 function UserContext({ children }) {
-  const serverURL = "http://localhost:9000";
+  const serverURL = "https://ai-backend-fzto.onrender.com";
   const [userData, setUserData] = useState(null);
   const [frontendImage, setFrontendImage] = useState(null);
   const [backendImage, setBackendImage] = useState(null);
