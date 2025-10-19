@@ -1,4 +1,3 @@
-// index.js
 import express from "express"
 import dotenv from "dotenv"
 dotenv.config();
@@ -7,8 +6,6 @@ import connectDB from "./config/db.js";
 import authRouter from "./routes/auth.routes.js";
 import cookieParser from "cookie-parser";
 import userRouter from "./routes/user.routes.js";
-import geminiResponse from "./gemini.js";
-
 
 const app = express();
 app.use(cors({

@@ -1,7 +1,7 @@
 import express from "express";
 import { askToAssistant, getCurrentUser, updateAssistant } from "../controllers/user.controllers.js";
 import isAuth from "../middlewares/isAuth.js";
-import Upload from "../middlewares/multer.js"
+import Upload from "../middlewares/multer.js";
 
 const userRouter = express.Router();
 
