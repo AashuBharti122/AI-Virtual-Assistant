@@ -8,9 +8,9 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
-     "start": "concurrently \"npm run server\" \"npm run client\"",
-     "server": "cd Backend && npm start",
-     "client": "cd Frontend && npm start"
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd Backend && npm start",
+    "client": "cd Frontend && npm start"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.14",
